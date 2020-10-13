@@ -19,8 +19,8 @@
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "js": [ "query-string.js", "content.js" ],
+        "matches": [ "*://mycourseville.com/*" ]
     }],
 
     "browser_action": {

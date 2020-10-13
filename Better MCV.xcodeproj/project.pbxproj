@@ -24,6 +24,7 @@
 		0A6079412535CFEE0053028D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A6079402535CFEE0053028D /* popup.html */; };
 		0A6079432535CFEE0053028D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0A6079422535CFEE0053028D /* popup.css */; };
 		0A6079452535CFEE0053028D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A6079442535CFEE0053028D /* popup.js */; };
+		0A6079722535E09B0053028D /* query-string.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A6079712535E09B0053028D /* query-string.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		0A6079442535CFEE0053028D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		0A6079462535CFEE0053028D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A6079472535CFEE0053028D /* Better_MCV_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Better_MCV_Extension.entitlements; sourceTree = "<group>"; };
+		0A6079712535E09B0053028D /* query-string.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "query-string.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 				0A60793A2535CFEE0053028D /* manifest.json */,
 				0A60793C2535CFEE0053028D /* background.js */,
 				0A60793E2535CFEE0053028D /* content.js */,
+				0A6079712535E09B0053028D /* query-string.js */,
 				0A6079402535CFEE0053028D /* popup.html */,
 				0A6079422535CFEE0053028D /* popup.css */,
 				0A6079442535CFEE0053028D /* popup.js */,
@@ -363,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6079722535E09B0053028D /* query-string.js in Resources */,
 				0A60793D2535CFEE0053028D /* background.js in Resources */,
 				0A6079432535CFEE0053028D /* popup.css in Resources */,
 				0A6079412535CFEE0053028D /* popup.html in Resources */,
