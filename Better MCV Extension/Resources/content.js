@@ -71,7 +71,7 @@ function main() {
                     case 'afterClickSubpageButton':
                         pushPath(`/course/${params.cv_cid}/${params.sub_page}`);
                         break;
-                    default:
+                    case 'afterClickTabButton':
                         history.pushState({}, undefined, `/`);
                         break;
                 }
